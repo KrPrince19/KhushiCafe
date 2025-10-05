@@ -179,7 +179,7 @@ justify-content: center;
 align-items: center;
 margin-top: 10px;
  background-size: cover;
- background-image: url("cafe.png");
+ background-image: url("/images/cafe.png");
 }
 
 #menu{
