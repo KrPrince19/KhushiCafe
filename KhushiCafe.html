@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Cafe</title>
+
+    <link rel="stylesheet" href="KhushiCafe.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+  
+</head>
+<body>
+
+  
+  
+  <header class="my-header">
+    <a href="#home" class="logo">Khushi
+      <span>Cafe</span></a>
+      <i class="fa fa-bars" id="menu-icon"></i> <!-- Menu Icon -->
+
+      <nav class="navbar">
+        
+        <a href="#home-visit" class="active">Home</a>
+        <a href="#contact" class="active">Contact</a>
+        <a href="#about" class="active">About</a>
+        <a href="#service" class="active">Service</a>
+        <a href="#menu" class="active">Menu</a>
+
+        <div class="arrow" id="HighlightBox1" >
+                    </div>
+                    <div  class="highlight" id="HighlightBox2">
+                      <h4>Click Here For Menu</h4> 
+                    </div> 
+                  </nav>
+                </header>
+              </div>
+              <!-- time and greet  -->
+            
+
+            </div>
+            <div class="main-container" id="home-visit">
+              <!-- greet-time -->
+              <div class="greet-time">
+                <div class="greet">
+                  
+                  <p>Hi...
+                  </p>
+                  <span id="greet">Good Morning.</span>
+                </div> 
+                
+                
+                <div id="welcome-text">
+                </div>
+                
+              </div>
+            </div>
+            
+              <header class="Menu-header">
+        <a href="#home" class="Menu-logo">Khushi
+            <span>Cafe</span></a>
+                <div class="Menu-nav">
+                    <a href="KhushiCafe.html">Home</a>
+                </div>
+            </header>
+
+       <!-- menu section -->
+             <div class="item-menu">
+            
+               <div><h1 id="menu">Menu</h1></div>
+
+               <div class="buttons">
+    <button onclick="filterItems('all', this )">All</button>
+    <button onclick="filterItems('fastfood', this)">Fast Food 🍔</button>
+    <button onclick="filterItems('icecream', this)">Ice Cream 🍦</button>
+    <button onclick="filterItems('coffee',this)">Coffee ☕</button>
+    <button onclick="filterItems('meal',this)">Meal 🍛</button>
+    <button onclick="filterItems('shake',this)">Shake 🥤</button>
+  </div>
+
+               <div class="item-box">
+                <div id="item1" class="box coffee">
+                  <img  id="item-img" src="cappuccino.png" alt="image">
+                  <div class="item-detail">
+                    <h1>Cappuchino</h1>
+                    <h3 id="description">Italian coffee made with equal parts espresso, steamed milk, and milk foam.</h3>
+                    <h2>Rs 20</h2>
+                  </div>
+                  </div>
+                <div id="item1" class="box coffee">
+                   <img  id="item-img" src="americano.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Americano</h1>
+                  <h3 id="description">smooth coffee made by adding hot water to a shot of espresso.</h3>
+                  <h2>Rs 20</h2>
+                  </div>
+                </div>
+                <div id="item1" class="box coffee">
+                   <img  id="item-img" src="cold brew.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Cold Brew</h1>
+                  <h3 id="description">Coarse-ground beans are soaked in water for 12 to 24 hours.</h3>
+                  <h2>Rs 20</h2>
+                  </div>
+                </div>
+                <div id="item1" class="box coffee">
+                  <img  id="item-img" src="espresso.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Espresso</h1>
+                  <h3 id="description">Bold, rich shot of pure coffee energy in every sip.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box coffee">
+                   <img  id="item-img" src="latte.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Latte</h1>
+                  <h3 id="description">Smooth blend of espresso and steamed milk with a creamy finish.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box coffee">
+                  <img  id="item-img" src="blackcoffee.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Black Coffee</h1>
+                  <h3 id="description"> Pure brewed coffee with deep, bold flavor—no milk, no fuss.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box coffee">
+                  <img  id="item-img" src="Milkcoffee.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Milk Coffee</h1>
+                  <h3 id="description">Comforting mix of coffee and milk, lightly sweet and mellow.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+
+                <!-- chai  -->
+                <div id="item1" class="box chai">
+                  <img  id="item-img" src="masalachai.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Masala Chai</h1>
+                  <h3 id="description">Spiced Indian tea brewed with bold flavors and warm aromas.</h3>
+                  <h2>Rs 20</h2>
+
+                </div>
+                </div>
+                <div id="item1" class="box chai">
+                    <img  id="item-img" src="milkchai.png" alt="image">
+                  <div class="item-detail">
+
+                  <h1>Milk Chai</h1>
+                  <h3 id="description">Classic creamy chai with rich milk and strong tea blend.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+
+                <div id="item1" class="box chai">
+                  <img  id="item-img" src="mintchai.png" alt="image">
+                  <div class="item-detail">
+
+                  <h1>Mint Chai</h1>
+                  <h3 id="description"> Refreshing twist of mint leaves in soothing chai.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box chai">
+                  <img  id="item-img" src="tulsichai.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Tulsi Chai</h1>
+                  <h3 id="description">Herbal tea infused with holy basil for calm and wellness.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box chai">
+                  <img  id="item-img" src="blackchai.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Black Chai</h1>
+                  <h3 id="description">Strong and plain tea without milk, full of bold flavor</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+
+                <!-- ice creame  -->
+                <div id="item1" class="box icecream">
+                  <img  id="item-img" src="chocovanilla.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Choco Vanilla</h1>
+                  <h3 id="description">Classic duo of rich chocolate and smooth vanilla swirls.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+
+              
+                <div id="item1" class="box icecream">
+                  <img  id="item-img" src="amulfruitnut.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Amul Fruit Nut</h1>
+                  <h3 id="description">Creamy delight packed with real, juicy fruit bits.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box icecream">
+                  <img  id="item-img" src="cornetto.png" alt="image">
+                  <div class="item-detail">
+                  <h1> Dubble Choco</h1>
+                  <h3 id="description"> Twice the chocolate, double the indulgence!</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box icecream">
+                  <img  id="item-img" src="gourmetsilk.png" alt="image">
+                  <div class="item-detail">
+                  <h1> Silk-Choco</h1>
+                  <h3 id="description">Luxuriously smooth chocolate crafted for true connoisseurs</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+                <div id="item1" class="box icecream">
+                  <img  id="item-img" src="amulsugarfree.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Amul Sugar-Free</h1>
+                  <h3 id="description">Guilt-free creamy treat with zero added sugar.</h3>
+                  <h2>Rs 20</h2>
+                </div>
+                </div>
+              <div id="item1" class="box icecream">
+                <img  id="item-img" src="Cookiecrunch.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Cookie Crunch</h1>
+                  <h3 id="description">Creamy ice cream loaded with crunchy cookie bites</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box icecream">
+                <img  id="item-img" src="oreocreame.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Oreo & Creame</h1>
+                  <h3 id="description"> Silky cream and crushed Oreos blended to perfection.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box icecream">
+                <img  id="item-img" src="butterscotch.png" alt="image">
+                  <div class="item-detail">
+                  <h1>ButterScotch</h1>
+                  <h3 id="description">w Caramelized crunch with smooth, buttery ice cream.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+
+              <!-- meales  -->
+             
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="shahipaneer.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Shahi Paneer</h1>
+                  <h3 id="description">Royal North Indian curry with soft paneer in rich, creamy gravy.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="tandooriroti.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Tandoori Roti</h1>
+                  <h3 id="description">Clay oven-baked whole wheat roti with smoky flavor.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="paneerbiryani.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Paneer Biryani</h1>
+                  <h3 id="description">Spiced basmati rice layered with tender paneer and herbs.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="naan.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Naan Roti</h1>
+                  <h3 id="description">Soft, fluffy Indian bread perfect with any curry.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="paneertikka.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Paneer Tikka</h1>
+                  <h3 id="description">Grilled paneer cubes marinated in spices, smoky and spicy.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="paneertikkamasala.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Paneer Tikka Masala </h1>
+                  <h3 id="description">Grilled paneer in a rich, spicy tomato-onion gravy.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="gobhirice.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Gobhi Rice</h1>
+                  <h3 id="description"> Fried rice tossed with spicy cauliflower bites and seasoning.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box meal">
+                <img  id="item-img" src="chillipaneer.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Chilli Paneer</h1>
+                  <h3 id="description">Indo-Chinese delight with paneer in spicy, tangy sauce.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+
+              <!-- shake  -->
+              <div id="item1" class="box shake">
+                <img  id="item-img" src="strawbeery.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Strawberry Milk</h1>
+                  <h3 id="description"> Sweet, refreshing milkshake bursting with strawberry flavor.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+             
+              <div id="item1" class="box shake">
+                <img  id="item-img" src="badamfaluda.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Badam Faluda</h1>
+                  <h3 id="description">Rich almond-flavored dessert with basil seeds, vermicelli & ice cream.</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              
+              
+              <div id="item1" class="box shake">
+                <img  id="item-img" src="oreoshake.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Oreo Shake</h1>
+                  <h3 id="description">“Crushed cookies, creamy bliss,
+Oreo shake you just can’t miss..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box shake">
+                <img  id="item-img" src="pistabadam.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Pista Badam</h1>
+                  <h3 id="description">“Royal nuts blended so fine,
+Pista Badam shake — a taste divine..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box shake">
+                <img  id="item-img" src="kitkat.png" alt="image">
+                  <div class="item-detail">
+                  <h1>Kit-kat Magic</h1>
+                  <h3 id="description">“Crunch it, sip it, take a break,
+KitKat shake — your perfect escape..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box shake">
+                <img  id="item-img" src="fruitshake.png">
+                  <div class="item-detail">
+                  <h1>Mixed Fruit</h1>
+                  <h3 id="description">“Fresh fruits dancing in a swirl,
+One fruit shake to refresh your world..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+
+              <!-- fast food -->
+
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="noodle.png">
+                  <div class="item-detail">
+                  <h1>Noddle</h1>
+                  <h3 id="description">"Twist, slurp, and spice your mood,
+Our noodles are your happy food..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="paneernoodle.png">
+                  <div class="item-detail">
+                  <h1>Paneer Noddle</h1>
+                  <h3 id="description">"Soft paneer meets sizzling spice,
+Paneer noodles — oh so nice..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="redsaucepasta.png">
+                  <div class="item-detail">
+                  <h1>Red Sauce Pasta</h1>
+                  <h3 id="description">Bold, saucy and rich in taste,
+Red sauce pasta, no bite to waste..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="veggieburger.png">
+                  <div class="item-detail">
+                  <h1>Veggie Burger</h1>
+                  <h3 id="description">"Stacked with greens and grilled with flair,
+Veggie burger beyond compare..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="frenchfries.png">
+                  <div class="item-detail">
+                  <h1>French Fries</h1>
+                  <h3 id="description">"Crispy, golden, salted just right,
+Our fries are pure snack-time delight..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="paneerburger.png">
+                  <div class="item-detail">
+                  <h1>Paneer Burger</h1>
+                  <h3 id="description">"Grilled paneer packed with spice,
+This burger’s bold, juicy, and twice as nice..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="paneerpizza.png">
+                  <div class="item-detail">
+                  <h1>Paneer Pizza</h1>
+                  <h3 id="description">Cheesy dreams with spicy paneer,
+One slice and the cravings disappear!"</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="paneerroll.png">
+                  <div class="item-detail">
+                  <h1>Paneer Roll</h1>
+                  <h3 id="description">"Grilled to perfection, spicy and tight,
+Paneer roll is a flavor bite..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="vegsandwich.png">
+                  <div class="item-detail">
+                  <h1>Veg Sandwich</h1>
+                  <h3 id="description">"Fresh veggies, creamy spread,
+Our veg sandwich keeps you fed..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+              <div id="item1" class="box fastfood">
+                <img  id="item-img" src="Paneersandwich.png">
+                  <div class="item-detail">
+                  <h1>Paneer-Sandwich</h1>
+                  <h3 id="description">"Juicy paneer with a herby touch,
+A sandwich you’ll love so much..</h3>
+                  <h2>Rs 20</h2>
+              </div>
+              </div>
+             
+             
+             
+            </div>
+             </div>
+  
+</div>
+
+<!-- contact section -->
+
+<div class="contact-area" id="contact">
+  <div id="contact-item">
+    <h1 id="contact-us">Contact Us</h1>
+    <!-- <span id="contact-data">Name:</span>  -->
+    <input type="text" placeholder="Name" class="input-box">
+    <!-- <span id="contact-data">Email:</span> -->
+    <input type="email" placeholder="Email" class="input-box">
+    <textarea name="message" id="message" row="50" col="50" placeholder="Type your Message"></textarea>
+    <button id="btn">Submit</button>
+  </div>
+</div>
+
+
+<!-- about section  -->
+ <div class="about-section" id="about"> 
+  <div class="about-us">
+    <div class="about-img">
+      <img src="group.png" alt="">
+    </div>
+    <div class="about-msg">
+      <h1>About US</h1>
+      <p>Our restaurant community is working together with dedication and shared passion to grow and elevate the standard of professionalism across the industry.We always prioritize our customers, ensuring they feel valued, heard, and well cared for every time they visit.</p>
+    </div>
+  </div>
+  <div class="about-item">
+    <div class="item-area">
+    <div class="icon-box">
+      <i class="fa fa-birthday-cake" id="item-color"></i> 
+      <span id="item-name">Cake</span>
+    </div>
+    <p id="item-data">Step in for a meal, stay for the cake—because dessert should never be an afterthought.</p>
+  </div>
+  <div class="item-area">
+    <div class="icon-box">
+<i class='fa fa-coffee' id="item-color"></i> 
+      <span id="item-name">Coffee</span>
+    </div>
+    <p id="item-data">Start your day—or sweeten your evening—with the perfect cup of our freshly brewed coffee.</p>
+  </div>
+  <div class="item-area">
+    <div class="icon-box">
+     <i class='fa fa-hamburger' id="item-color"></i> 
+      <span id="item-name">Burger</span>
+    </div>
+    <p id="item-data">Not just a burger, it’s a bite of happiness in every layer!</p>
+  </div>
+  <div class="item-area">
+    <div class="icon-box">
+      <i class="fas fa-utensil-spoon" id="item-color"></i>
+      <span id="item-name">Soup</span>
+    </div>
+    <p id="item-data">One spoon, endless comfort—discover your new favorite bowl of soup today!</p>
+  </div>
+ <div class="item-area">
+    <div class="icon-box">
+      <i class="fas fa-pizza-slice" id="item-color"></i>
+      <span id="item-name">Pizza</span>
+    </div>
+    <p id="item-data">Hot, cheesy, and loaded with flavor—our pizzas are love at first bite!</p>
+  </div>
+  <div class="item-area">
+    <div class="icon-box">
+     <i class="fas fa-bowl-rice" id="item-color"></i>
+      <span id="item-name">Noddles</span>
+    </div>
+    <p id="item-data">Let your taste buds travel—our noodles are a passport to Asian-inspired delight!</p>
+  </div>
+  <div id="service"></div>
+</div>
+</div> 
+
+<!-- service part  -->
+
+<div class="service-section" >
+  <h1 class="service">Our Service</h1>
+  
+  <div class="service-container">
+    <div id="service-box">
+      <h1> Dine-In Experience</h1>
+      <p>Enjoy a warm, welcoming atmosphere with attentive service and a menu that delights every taste bud. Whether it’s a family dinner or a casual outing, we make every meal special.</p>
+    </div>
+   
+    <div id="service-box">
+      <h1>Takeaway & Delivery</h1>
+      <p>Craving our food at home or the office? Order online or call us—our fast and fresh delivery brings the flavors to your doorstep.</p>
+
+    </div>
+  <div id="service-box">
+    <h1>Customized Orders & Party Catering</h1>
+    <p>From birthdays to office lunches, we offer customized meals and cake orders to make your event memorable. Pre-order to add a personal touch!</p>
+
+  </div>
+  <div id="service-box">
+    <h1>Special Menus & Seasonal Offers</h1>
+    <p>Discover our chef’s specials and limited-time offers, bringing you new tastes every season.</p>
+
+  </div>
+  </div>
+</div>
+
+<div class="bottom-section">
+  <div class="bottom-item">
+    <div id="box">
+      <h1>Contact Information</h1>
+      <h2>Prince Yadav</h2>
+      <h2>9999999999</h2>
+      <h2>xyz12@gmail.com</h2>
+    </div>
+    <div id="box">
+      <h1>Opening And Closing Hour</h1>
+      <h2>10:00 Am to 10:00 Pm</h2>
+    </div>
+    <div id="box">
+      <h1>Useful Link</h1>
+      <h2><a href="#menu">Home</a></h2>
+      <h2><a href="#contact">Contact</a></h2>
+      <h2><a href="#about">About</a></h2>
+      <h2><a href="#service">Service</a></h2>
+    </div>
+  </div>
+
+  
+</div>
+</div>
+<div class="bottom-icon">
+    <div class="bottom-icon">
+ <a href="#" class="fab fa-facebook"></a>
+<a href="#" class="fab fa-twitter"></a>
+<a href="#" class="fab fa-instagram"></a>
+<a href="#" class="fab fa-linkedin"></a>
+</div>
+</div>
+<div class="footer-section">
+  <footer>
+    <p>&copy; 2025 Prince Restaurant. All rights reserved.</p>
+  </footer>
+</div>
+
+<!-- Swiper JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    
+
+    var typed = new Typed("#welcome-text", {
+        strings: ["Welcome to <span class='Highlight_cafeName'>Khushi Cafe </span>.Your happy place for great  good vibes, and tasty bites. Come on in and make yourself at home.."],
+        typeSpeed: 10,
+      });
+
+      
+    </script>
+               
+               <script src="KhushiCafe.js"></script>
+               
+               
+              
+               
+              </body>
+              
+              
+
+</html>
