@@ -16,19 +16,21 @@
 
 
 .my-header h1{
- word-spacing: -11px;
+ word-spacing: -10px;
+ color:#ee9cba;
+ text-decoration: underline;
  font-size: 2.1rem;
 }
 
 .firstname {
-  color: #f87171;
+  color: #70787a;
   text-shadow: 1px 1px 0 #fff, 3px 3px 0 #54dceb;
   font-weight: bold;
 }
 
 .secondname{
-     color: #f543d5; 
-      text-shadow: 1px 1px 0 #fff, 3px 3px 0 #19b7d6;
+    color: #70787a;
+  text-shadow: 1px 1px 0 #fff, 3px 3px 0 #54dceb;
   font-weight: bold;
 
 }
@@ -776,7 +778,7 @@ justify-content: space-around;
 
 }
  .item-area .icon-box{
-  width: 150px;
+  width: 153px;
   color: #000;
 }
 
