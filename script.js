@@ -30,7 +30,10 @@ const hours = new Date().getHours();
     }, 3000); // hide after 3 seconds
   });
 
-let menuItem = document.querySelector('#menu-icon');
+
+
+const menuIcon = document.getElementById('menu-icon');
+const crossIcon = document.getElementById('cross-icon');
 
 let navbar = document.querySelector('.navbar');
 let sections =document.querySelectorAll('section');
@@ -52,11 +55,18 @@ window.onscroll = ()=>{
     })
 }
 
-menuItem.onclick = () => {
- menuItem.classList.toggle('bx-x');
- navbar.classList.toggle('active');
-}
 
+menuIcon.onclick = () => {
+  navbar.style.display = 'block';
+  menuIcon.style.display = 'none';
+  crossIcon.style.display = 'inline-block';
+};
+
+crossIcon.onclick = () => {
+  navbar.style.display = 'none';
+  menuIcon.style.display = 'inline-block';
+  crossIcon.style.display = 'none';
+};
 
 
   window.onload = () => {
