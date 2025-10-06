@@ -795,6 +795,8 @@ button{
 }
 .item-box{
   justify-content: center;
+  align-item:center;
+  margin-right:34px;
   display: block;
 }
 .item-menu{
